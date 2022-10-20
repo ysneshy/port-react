@@ -8,11 +8,11 @@ import "../styles/components/sidebar.sass";
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Matheus Battisti" />
+      <img src={Avatar} alt="Carlos Filho" />
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="https://github.com/ysneshy/ysneshy/blob/main/.github/CARLOS%20AUGUSTO%20DINIZ%20FILHO%202024-1.pdf" className="btn">
+      <a href="https://raw.githubusercontent.com/ysneshy/ysneshy/main/.github/CARLOS%20AUGUSTO%20DINIZ%20FILHO%202024-1.pdf" className="btn">
         Download currículo
       </a>
     </aside>
